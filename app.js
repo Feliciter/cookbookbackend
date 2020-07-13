@@ -49,14 +49,6 @@ app.use((req, res, next) => {
   next(createError(404));
 });
 
-// Index Route
-// app.get('/', (req, res) => {
-//   res.send('invaild endpoint');
-// });
-
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'dist/cookbook2'));
-// });
 
 // error handler
 app.use(function (err, req, res, next) {
